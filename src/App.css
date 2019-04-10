@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+.App {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Container {
+  max-width: 1250px;
+  background-color: #eee;
+  border-radius: 10px 10px 60px 10px;
+}
+
+.Game-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 200px;
+  padding: 1.5em;
+  margin: 1em;
+  background-color: #777;
+  color: #8a891f;
+  border-radius: 13px 13px 50px 13px;
+}
+
+.Render-word-screen {
+  background-color: #bdae58;
+  box-shadow: inset 3px 3px rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1em;
+  width: 100%;
+}
+
+.Render-wrong-word-screen {
+  background-color: #bdae58;
+  box-shadow: inset 3px 3px rgba(0,0,0,0.15);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1em;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

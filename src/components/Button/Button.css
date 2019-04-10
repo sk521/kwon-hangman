@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+.button {
+  margin: 1em;
+  padding: 1em 1em;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.button-letter {
+  margin: 1em;
+  padding: 1em 1.5em;
+  background-color: #8f6094; opacity: 0.5;
+  color: white;
+}
+
+.disabled {
+  background-color: black;
+}
+
+.button-letter:hover {
+  background-color: #5b3e5e;;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.easy-button {
+  background-color:  #00fe00;
+}
+
+.easy-button:hover {
+  background-color: #00cb00;
+  transform: translateY(-7px);
+}
+
+.med-button {
+  background-color: #ffd700;
+}
+
+.med-button:hover {
+  background-color: #e6c619;
+  transform: translateY(-7px);
+}
+
+.hard-button {
+  background-color: #a62c2b;
+}
+
+.hard-button:hover {
+  background-color: #852322;
+  transform: translateY(-7px);
+}
