@@ -1,3 +1,4 @@
 ## Kwon-Hangman
 
-Hangman game built for REACH Apprenticeship!
+Hangman game that uses React
+
